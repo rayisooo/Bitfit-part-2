@@ -12,7 +12,7 @@ internal class CustomAdapter(private var itemsList: ArrayList<wish>) :
     RecyclerView.Adapter<CustomAdapter.MyViewHolder>() {
     internal inner class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         var itemTextView: TextView = view.findViewById(R.id.itemTextView)
-        var text2 : TextView = view.findViewById(R.id.textView)
+        //var text2 : TextView = view.findViewById(R.id.textView)
         var text3 : TextView = view.findViewById(R.id.textView3)
     }
     @NonNull
@@ -25,8 +25,8 @@ internal class CustomAdapter(private var itemsList: ArrayList<wish>) :
         val item = itemsList.get(position)
 
         holder.itemTextView.text = item.store.text
-        holder.text3.text = "900"
-        holder.text2.text = item.url.text
+        holder.text3.text = "900 Calories"
+        //holder.text2.text = item.url.text
 
     }
     override fun getItemCount(): Int {

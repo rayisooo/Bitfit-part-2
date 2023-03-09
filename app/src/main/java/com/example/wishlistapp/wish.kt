@@ -4,6 +4,5 @@ import android.widget.TextView
 
 class wish(
     val store: TextView,
-    val url: TextView,
-    val num: String,
+    val url: TextView
     )
