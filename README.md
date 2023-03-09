@@ -1,4 +1,4 @@
-# Android Project 6 - *Name of App Here*
+# Android Project 6 - *Bit Fit Part 2e*
 
 Submitted by: **Raymond Otoadese**
 
